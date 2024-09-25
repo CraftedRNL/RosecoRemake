@@ -5,19 +5,19 @@
     background-size: cover;
     height: 110vh;
 }
-.btn-light {
-    background-color: gray;
-    border-radius: 20px;
-    font-size: 20px;
+.btn-outline-light.active,
+.btn-outline-light:hover {
+    border-radius: 45px;
+    padding: 5px 15px;
+    background-color: rgb(225, 225, 225, .5);
+    border: 1px solid #fff;
+    color: #fff;
 }
-.btn-light::after {
-    background-color: gray;
+.btn-outline-light{
+    padding: 5px 15px;
+    border: none;
 }
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
+
 .text {
     text-align: center;
     justify-content: center;
